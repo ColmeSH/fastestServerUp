@@ -9,6 +9,7 @@ class BadBoy(models.Model):
     surname = models.CharField(max_length=30)
     age = models.IntegerField()
     description = models.CharField(max_length=200)
+    votes = models.IntegerField()
 
     def speak_about_random_something(self):
         desc = str(self.description)

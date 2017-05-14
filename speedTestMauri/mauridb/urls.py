@@ -12,5 +12,5 @@ urlpatterns = [
     url(r'^description/', views.description, name='description'),
 
     # details of the developer
-    url(r'^$developer/details', views.mauri, name='mauri')
+    url(r'^developer/details/', views.mauri, name='mauri')
 ]
